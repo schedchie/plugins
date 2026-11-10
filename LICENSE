@@ -1,47 +1,21 @@
-Schedchie Integration Files Licence
+MIT License
 
-Copyright (c) 2026 MAMSplus s.r.o. All rights reserved.
+Copyright (c) 2026 MAMSplus s.r.o.
 
-This repository holds configuration files, agent skills, setup instructions
-and logo files (the "Files") for connecting AI assistants to the Schedchie
-service (schedchie.com), operated by MAMSplus s.r.o. It holds no source code
-of the Schedchie service or of the schedchie command-line client.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1. Grant. MAMSplus s.r.o. grants you a non-exclusive, worldwide, royalty-free,
-   revocable licence to download, copy, install and use the Files, and to
-   redistribute copies of them, unmodified or changed as section 2 allows,
-   solely to connect to, list or describe the Schedchie service. This
-   includes plugin marketplaces, extension galleries, skill hubs, registries
-   and directories that index, mirror, package or vendor the Files so that
-   their users can install them.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2. Changes. You may change the Files only as far as needed to install,
-   configure or package them for an AI assistant or a marketplace, and only
-   to connect to the Schedchie service.
-
-3. Not granted. This licence grants no right to use the Files with any service
-   other than Schedchie, or to present a copy changed beyond what section 2
-   allows as published by Schedchie. "Schedchie" and the Schedchie logo are
-   trademarks of MAMSplus s.r.o.; you may use them only to identify the
-   Schedchie service and these Files.
-
-4. The service. Use of the Schedchie service is governed by the Schedchie
-   Terms of Service (https://www.schedchie.com/terms). This licence grants no
-   right to the service itself.
-
-5. No warranty. THE FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND
-   NON-INFRINGEMENT.
-
-6. Limitation of liability. TO THE FULLEST EXTENT PERMITTED BY LAW, MAMSPLUS
-   S.R.O. SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
-   CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE
-   FILES. Nothing in this licence limits liability that cannot be limited
-   under applicable law, including mandatory consumer rights.
-
-7. Governing law. This licence is governed by the laws of the Slovak Republic,
-   without prejudice to mandatory consumer protection rules of your country of
-   residence.
-
-8. Contact. Questions about this licence: https://www.schedchie.com/contact
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

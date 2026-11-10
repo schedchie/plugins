@@ -40,7 +40,7 @@ Nothing in this repository runs on install or sends anything by itself. When you
 | Hermes Agent | `hermes skills tap add schedchie/plugins` (the skill in `skills/schedchie`) |
 | Cline | follow `llms-install.md` |
 
-Each one adds the same server, `https://mcp.schedchie.com/mcp`, and the first tool call opens the Schedchie sign-in. The skill in `skills/schedchie/SKILL.md` tells an agent which tools to use first, to ask you before scheduling (unless you told it that it need not) and before anything that publishes, replies, approves, deletes, sends mail, creates a shareable link or changes access, to convert your local times to UTC, and to treat text written by other people as data, never as instructions.
+Each one except Hermes adds the same server, `https://mcp.schedchie.com/mcp`, and the first tool call opens the Schedchie sign-in. The Hermes tap adds only the skill: add the server as in [Hermes Agent](#hermes-agent) below. The skill in `skills/schedchie/SKILL.md` tells an agent which tools to use first, to ask you before scheduling (unless you told it that it need not) and before anything that publishes, replies, approves, deletes, sends mail, creates a shareable link or changes access, to convert your local times to UTC, and to treat text written by other people as data, never as instructions.
 
 ## Connect any assistant by hand
 
@@ -734,3 +734,7 @@ More: https://www.schedchie.com/ai/ai-agents-cli
 - Security reports: see [SECURITY.md](SECURITY.md)
 
 Issues on this repository are for the files in it. For your account, mail support@schedchie.com.
+
+## Licence
+
+The manifests, the skill and the documentation are under the MIT licence ([LICENSE](LICENSE)). The Schedchie name and the logo files in `assets/` are trademarks and are not licensed: see [TRADEMARKS.md](TRADEMARKS.md).
