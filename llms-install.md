@@ -22,7 +22,7 @@ The same entry in `cline_mcp_settings.json` (Configure MCP Servers):
 }
 ```
 
-From the Cline CLI, `cline mcp add schedchie https://mcp.schedchie.com/mcp --transport http --yes` saves the server; then `cline mcp` and Authorize OAuth signs in.
+From the Cline CLI, `cline mcp add schedchie https://mcp.schedchie.com/mcp --transport http --yes` saves the server; then `cline mcp` and Authorize OAuth signs in. On Windows the CLI that comes with the Cline desktop app is `cline-cli.exe` in `%LOCALAPPDATA%\Cline` and may not be on PATH: if `cline` is not found, Cline may still be installed, so run the same commands as `cline-cli`. `cline config mcp` (or `cline-cli config mcp`) lists the saved servers, which the CLI keeps in `~/.cline/data/settings/cline_mcp_settings.json`.
 
 ## Check it
 
