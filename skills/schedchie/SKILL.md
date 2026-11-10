@@ -1,13 +1,11 @@
 ---
-name: schedchie
-description: The Schedchie MCP server after one OAuth sign-in. Posts, media, approvals and X credits on the user's own Schedchie accounts on Instagram, Facebook, TikTok, YouTube, LinkedIn, X, Threads, Bluesky, Pinterest, Mastodon, Telegram, Discord, Google Business Profile, Slack, WordPress, Dev.to, Hashnode, Ghost, Pixelfed and Listmonk. Use when the user asks to schedule, draft, reschedule or check social posts, upload media for a post, or approve a teammate's posts.
-compatibility: Needs an MCP client with Streamable HTTP and OAuth sign-in, and network access to https://mcp.schedchie.com/mcp.
+name: "schedchie"
+description: "The Schedchie MCP server after one OAuth sign-in. Posts, media, approvals and X credits on the user's own Schedchie accounts on Instagram, Facebook, TikTok, YouTube, LinkedIn, X, Threads, Bluesky, Pinterest, Mastodon, Telegram, Discord, Google Business Profile, Slack, WordPress, Dev.to, Hashnode, Ghost, Pixelfed and Listmonk. Use when the user asks to schedule, draft, reschedule or check social posts, upload media for a post, or approve a teammate's posts."
+compatibility: "Needs an MCP client with Streamable HTTP and OAuth sign-in, and network access to https://mcp.schedchie.com/mcp."
 metadata:
-  author: Schedchie
-  version: "1.1.0"
-  homepage: https://www.schedchie.com/ai
-  openclaw: { "emoji": "📅", "homepage": "https://www.schedchie.com/ai", "requires": { "config": ["mcp.servers.schedchie"] } }
-  hermes: { tags: [social-media, scheduling, mcp], category: productivity }
+  author: "Schedchie"
+  version: "1.1.1"
+  homepage: "https://www.schedchie.com/ai"
 ---
 
 # Schedchie
