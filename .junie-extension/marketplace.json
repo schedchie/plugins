@@ -1,0 +1,39 @@
+{
+  "name": "schedchie",
+  "owner": {
+    "name": "Schedchie",
+    "email": "support@schedchie.com"
+  },
+  "metadata": {
+    "description": "The Schedchie extension: the hosted Schedchie MCP server.",
+    "version": "1.0.0",
+    "homepage": "https://www.schedchie.com/ai"
+  },
+  "extensions": [
+    {
+      "name": "schedchie",
+      "source": "./extensions/schedchie",
+      "description": "Schedule posts, attach media, run approvals and read analytics on your Schedchie social accounts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Schedchie"
+      },
+      "category": "productivity",
+      "homepage": "https://www.schedchie.com/ai",
+      "keywords": [
+        "social-media",
+        "scheduling",
+        "social-media-scheduler",
+        "publishing",
+        "marketing",
+        "analytics",
+        "mcp",
+        "instagram",
+        "tiktok",
+        "linkedin",
+        "bluesky",
+        "youtube"
+      ]
+    }
+  ]
+}

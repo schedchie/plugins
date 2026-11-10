@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "schedchie": {
+      "type": "http",
+      "url": "https://mcp.schedchie.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "schedchie",
+  "owner": {
+    "name": "Schedchie",
+    "email": "support@schedchie.com"
+  },
+  "metadata": {
+    "description": "The Schedchie plugin: the hosted Schedchie MCP server and its agent skill."
+  },
+  "plugins": [
+    {
+      "name": "schedchie",
+      "source": "./",
+      "description": "Schedule posts, attach media, run approvals and read analytics on your Schedchie social accounts."
+    }
+  ]
+}

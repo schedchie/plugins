@@ -1,0 +1,17 @@
+{
+  "name": "schedchie",
+  "version": "1.0.0",
+  "description": "Schedule posts, attach media, run approvals and read analytics on your Schedchie social accounts. Sign in with your Schedchie account on first connect.",
+  "author": {
+    "name": "Schedchie",
+    "url": "https://www.schedchie.com"
+  },
+  "homepage": "https://www.schedchie.com/ai",
+  "repository": "https://github.com/schedchie/plugins",
+  "keywords": [
+    "schedchie",
+    "schedchie mcp",
+    "social media scheduler"
+  ],
+  "logo": "assets/icon-512.png"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "schedchie",
+  "version": "1.0.0",
+  "description": "Schedule posts, attach media, run approvals and read analytics on your Schedchie social accounts.",
+  "mcpServers": {
+    "schedchie": {
+      "httpUrl": "https://mcp.schedchie.com/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

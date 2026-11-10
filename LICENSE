@@ -1,0 +1,47 @@
+Schedchie Integration Files Licence
+
+Copyright (c) 2026 MAMSplus s.r.o. All rights reserved.
+
+This repository holds configuration files, agent skills, setup instructions
+and logo files (the "Files") for connecting AI assistants to the Schedchie
+service (schedchie.com), operated by MAMSplus s.r.o. It holds no source code
+of the Schedchie service or of the schedchie command-line client.
+
+1. Grant. MAMSplus s.r.o. grants you a non-exclusive, worldwide, royalty-free,
+   revocable licence to download, copy, install and use the Files, and to
+   redistribute copies of them, unmodified or changed as section 2 allows,
+   solely to connect to, list or describe the Schedchie service. This
+   includes plugin marketplaces, extension galleries, skill hubs, registries
+   and directories that index, mirror, package or vendor the Files so that
+   their users can install them.
+
+2. Changes. You may change the Files only as far as needed to install,
+   configure or package them for an AI assistant or a marketplace, and only
+   to connect to the Schedchie service.
+
+3. Not granted. This licence grants no right to use the Files with any service
+   other than Schedchie, or to present a copy changed beyond what section 2
+   allows as published by Schedchie. "Schedchie" and the Schedchie logo are
+   trademarks of MAMSplus s.r.o.; you may use them only to identify the
+   Schedchie service and these Files.
+
+4. The service. Use of the Schedchie service is governed by the Schedchie
+   Terms of Service (https://www.schedchie.com/terms). This licence grants no
+   right to the service itself.
+
+5. No warranty. THE FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND
+   NON-INFRINGEMENT.
+
+6. Limitation of liability. TO THE FULLEST EXTENT PERMITTED BY LAW, MAMSPLUS
+   S.R.O. SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+   CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE
+   FILES. Nothing in this licence limits liability that cannot be limited
+   under applicable law, including mandatory consumer rights.
+
+7. Governing law. This licence is governed by the laws of the Slovak Republic,
+   without prejudice to mandatory consumer protection rules of your country of
+   residence.
+
+8. Contact. Questions about this licence: https://www.schedchie.com/contact

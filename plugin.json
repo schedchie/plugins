@@ -1,0 +1,54 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "schedchie",
+  "version": "1.0.0",
+  "description": "Schedule posts, attach media, run approvals and read analytics on your Schedchie social accounts.",
+  "author": {
+    "name": "Schedchie",
+    "email": "support@schedchie.com",
+    "url": "https://www.schedchie.com"
+  },
+  "homepage": "https://www.schedchie.com/ai",
+  "repository": "https://github.com/schedchie/plugins",
+  "keywords": [
+    "social-media",
+    "scheduling",
+    "social-media-scheduler",
+    "publishing",
+    "marketing",
+    "analytics",
+    "mcp",
+    "instagram",
+    "tiktok",
+    "linkedin",
+    "bluesky",
+    "youtube"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Schedchie",
+        "shortDescription": "Schedule and publish posts",
+        "longDescription": "Schedchie is a social media scheduler. With this plugin, your assistant works in your Schedchie account: you and the assistant write the post, and Schedchie schedules it and publishes it at the time you set.\n\nNetworks: Instagram, Facebook, TikTok, LinkedIn, Pinterest, YouTube, Threads, Bluesky, Mastodon, Telegram, Google Business Profile, Discord, Slack, WordPress, Dev.to, Hashnode, Ghost, Pixelfed, Listmonk and X. Posting to X uses X credits, bought in the Schedchie web app.\n\nWhat you can ask for:\n- Which accounts are connected, and which need a reconnect before they can publish.\n- Schedule a post on one or many accounts, with different text per network if you want it.\n- Edit a scheduled post, retry a failed one, or delete one. Deleting is marked destructive, and the Schedchie skill tells the assistant to confirm first.\n- Attach images or video from a link.\n- Analytics for a date range on Instagram, Facebook, TikTok, LinkedIn, Pinterest, YouTube, Threads, Bluesky, Mastodon, Telegram, Google Business Profile and Discord: followers, posts published and the per-post numbers each network reports.\n- Approve or reject posts that teammates hold for review (Ultra and higher plans, owner only).\n\nWhen you connect, the Schedchie sign-in screen lets you choose what the assistant may do. Anything you leave unticked is not available to it.\n\nLimitations:\n- Social accounts are connected in the Schedchie web app, not in the assistant.\n- Numbers a network does not report are shown as missing, never as zero.\n- Through the assistant, published posts cannot be edited, and deleting a post does not remove a post that is already live on the network.\n\nYou need a Schedchie account with an active plan or trial.",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://www.schedchie.com",
+        "supportURL": "https://www.schedchie.com/contact",
+        "privacyPolicyURL": "https://www.schedchie.com/privacy",
+        "termsOfServiceURL": "https://www.schedchie.com/terms",
+        "defaultPrompt": [
+          "Schedule this on my LinkedIn and Bluesky accounts for Tuesday at 9:00 Berlin time: Our spring menu starts Monday.",
+          "What do I have scheduled for next week, and did anything fail?",
+          "How did each of my accounts do over the last 30 days?"
+        ],
+        "brandColor": "#be185d",
+        "brandColorDark": "#db2777",
+        "logo": "./assets/icon-512.png",
+        "composerIcon": "./assets/icon-512.png"
+      }
+    }
+  }
+}

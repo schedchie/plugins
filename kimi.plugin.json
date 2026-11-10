@@ -1,0 +1,29 @@
+{
+  "name": "schedchie",
+  "version": "1.0.0",
+  "description": "Schedule posts, attach media, run approvals and read analytics on your Schedchie social accounts.",
+  "keywords": [
+    "social-media",
+    "scheduling",
+    "social-media-scheduler",
+    "publishing",
+    "marketing",
+    "analytics",
+    "mcp",
+    "instagram",
+    "tiktok",
+    "linkedin",
+    "bluesky",
+    "youtube"
+  ],
+  "author": {
+    "name": "Schedchie",
+    "email": "support@schedchie.com"
+  },
+  "homepage": "https://www.schedchie.com/ai",
+  "mcpServers": {
+    "schedchie": {
+      "url": "https://mcp.schedchie.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "schedchie",
+  "interface": {
+    "displayName": "Schedchie"
+  },
+  "plugins": [
+    {
+      "name": "schedchie",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

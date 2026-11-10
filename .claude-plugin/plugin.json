@@ -1,0 +1,32 @@
+{
+  "name": "schedchie",
+  "displayName": "Schedchie",
+  "version": "1.0.0",
+  "description": "Schedule posts, attach media, run approvals and read analytics on your Schedchie social accounts.",
+  "author": {
+    "name": "Schedchie",
+    "email": "support@schedchie.com",
+    "url": "https://www.schedchie.com"
+  },
+  "homepage": "https://www.schedchie.com/ai",
+  "repository": "https://github.com/schedchie/plugins",
+  "keywords": [
+    "social-media",
+    "scheduling",
+    "social-media-scheduler",
+    "publishing",
+    "marketing",
+    "analytics",
+    "mcp",
+    "instagram",
+    "tiktok",
+    "linkedin",
+    "bluesky",
+    "youtube"
+  ],
+  "icon": "./assets/icon-512.png",
+  "documentationUrl": "https://www.schedchie.com/ai",
+  "supportUrl": "https://www.schedchie.com/contact",
+  "privacyPolicyUrl": "https://www.schedchie.com/privacy",
+  "termsOfServiceUrl": "https://www.schedchie.com/terms"
+}
