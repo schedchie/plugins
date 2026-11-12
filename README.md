@@ -21,7 +21,7 @@ You and the assistant write the post; Schedchie schedules it and publishes it at
 
 On the sign-in screen you choose what the connection may do, in six groups: Schedule and edit posts; Upload media; Read analytics; Team and approvals; Notes, presets and groups; Comments, mentions and reviews. A tool outside the groups you ticked does not exist for that connection. Deleting a post, removing a member or disconnecting an account is marked destructive, and the skill in this repository tells the assistant to ask you first.
 
-Networks: Instagram, Facebook, TikTok, LinkedIn, Pinterest, YouTube, Threads, Bluesky, Mastodon, Telegram, Google Business Profile, Discord, Slack, WordPress, Dev.to, Hashnode, Ghost, Pixelfed, Listmonk and X. Posting to X uses X credits, bought in the Schedchie web app. The current list and the setup for every client: https://www.schedchie.com/ai
+Networks: Instagram, Facebook, TikTok, LinkedIn, Pinterest, YouTube, Threads, Bluesky, Mastodon, Telegram, Google Business Profile, Discord, Slack, WordPress, Dev.to, Hashnode, Ghost, Pixelfed, Listmonk and X. Posting to X is included in every paid plan under fair use. The current list and the setup for every client: https://www.schedchie.com/ai
 
 ## What is sent where
 
