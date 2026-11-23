@@ -1,10 +1,10 @@
 ---
 name: "schedchie"
-description: "The Schedchie MCP server after one OAuth sign-in. Posts, media, approvals and X usage on the user's own Schedchie accounts on Instagram, Facebook, TikTok, YouTube, LinkedIn, X, Threads, Bluesky, Pinterest, Mastodon, Telegram, Discord, Google Business Profile, Slack, WordPress, Dev.to, Hashnode, Ghost, Pixelfed and Listmonk. Use when the user asks to schedule, draft, reschedule or check social posts, upload media for a post, or approve a teammate's posts."
+description: "Schedule, post, publish, cross-post and reschedule social media posts, read analytics and run approvals on TikTok, Instagram, LinkedIn, Facebook, YouTube, X, Threads, Pinterest, Bluesky and Google Business Profile, plus Mastodon, Telegram, Discord, Slack, WordPress, Dev.to, Hashnode, Ghost, Pixelfed and Listmonk, through the Schedchie MCP server after one OAuth sign-in, on the user's own Schedchie accounts. Use when the user asks to schedule or post a video, photo or text to social media, cross-post one post to several networks, move or fix a scheduled post, check what failed, see how accounts performed, or approve a teammate's posts."
 compatibility: "Needs an MCP client with Streamable HTTP and OAuth sign-in, and network access to https://mcp.schedchie.com/mcp."
 metadata:
   author: "Schedchie"
-  version: "1.2.1"
+  version: "1.3.0"
   homepage: "https://www.schedchie.com/ai"
 ---
 

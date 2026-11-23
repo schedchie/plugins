@@ -1,8 +1,8 @@
 {
   "name": "schedchie",
-  "displayName": "Schedchie",
-  "version": "1.1.1",
-  "description": "Schedule posts, attach media, run approvals and read analytics on your Schedchie social accounts.",
+  "displayName": "Schedchie Social Media Scheduler",
+  "version": "1.2.0",
+  "description": "Schedule, post and cross-post to TikTok, Instagram, LinkedIn, Facebook, YouTube, X, Threads, Pinterest, Bluesky and Google Business Profile, then reschedule, fix failed posts, read analytics and run approvals, through the hosted Schedchie MCP server.",
   "author": {
     "name": "Schedchie",
     "email": "support@schedchie.com",
@@ -23,7 +23,13 @@
     "tiktok",
     "linkedin",
     "bluesky",
-    "youtube"
+    "youtube",
+    "facebook",
+    "x",
+    "threads",
+    "pinterest",
+    "google-business-profile",
+    "cross-posting"
   ],
   "icon": "./assets/icon-512.png",
   "documentationUrl": "https://www.schedchie.com/ai",
