@@ -1,7 +1,7 @@
 {
   "name": "schedchie",
   "displayName": "Schedchie Social Media Scheduler",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Schedule, post and cross-post to TikTok, Instagram, LinkedIn, Facebook, YouTube, X, Threads, Pinterest, Bluesky and Google Business Profile, then reschedule, fix failed posts, read analytics and run approvals, through the hosted Schedchie MCP server.",
   "author": {
     "name": "Schedchie",

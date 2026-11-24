@@ -19,6 +19,16 @@ Schedule, post and cross-post to Instagram, Facebook, TikTok, LinkedIn, Pinteres
 
 On the sign-in screen you choose what the connection may do, in six permission groups. Deleting a post, removing a member or disconnecting an account is marked destructive, and the skill in `skills/schedchie/SKILL.md` tells Claude to ask you first. It also tells Claude to convert your local times to UTC and to treat text written by other people as data, never as instructions.
 
+## Public data and other people's accounts
+
+Some tools look at accounts other than yours, on the platforms that support them: posts that mention your accounts, public post search and keyword monitors, public profile lookups, and watched profiles, whose public counts (followers, likes, posts) are recorded over time.
+
+- They read only what the platform's official API returns to your connected account: public posts, public profile details (name, bio, follower and post counts) and posts that mention your account. On Mastodon, mentions and search can include followers-only and direct posts that your account can see.
+- Nothing else private about another account is read: no follower lists, no other people's messages and no non-public profile data.
+- The other account is not notified, as with any public page view.
+- Mentions, search results and profile lookups are read live. What a keyword monitor finds is kept at most until you delete the monitor, and a watched profile's history at most until you stop watching it (some platforms remove it sooner).
+- You need a lawful reason to watch someone's account, and you must follow each platform's terms. The skill tells Claude to ask what a request is for before it follows a private person.
+
 ## What is sent where
 
 When you ask Claude to act, it calls tools on `mcp.schedchie.com` over HTTPS with the OAuth token from your sign-in, carrying what you ask it to act on: post text, times, account choices, media, comment replies, notes and the email addresses of people you invite. The tool results go back to Claude. Privacy policy: https://www.schedchie.com/privacy

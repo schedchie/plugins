@@ -4,7 +4,7 @@ description: "Schedule, post, publish, cross-post and reschedule social media po
 compatibility: "Needs an MCP client with Streamable HTTP and OAuth sign-in, and network access to https://mcp.schedchie.com/mcp."
 metadata:
   author: "Schedchie"
-  version: "1.3.0"
+  version: "1.3.1"
   homepage: "https://www.schedchie.com/ai"
 ---
 
@@ -67,6 +67,7 @@ Call `list_accounts` before scheduling: `schedule_post` takes `accountId`s, not 
 8. **Keep calls few.** Each connection has a call budget per minute and per hour. Do not poll in a loop: one `get_media_status` after the user says the upload is done, `schedule_posts` for a batch, and `list_posts` pages only as far as the question needs.
 9. **Report what the tools return.** Analytics, comments and post states come from the tools; never fill gaps or estimate numbers. If a tool answers "Resolve this in the Schedchie app", pass that on and point the user to the Schedchie dashboard at https://www.schedchie.com/dashboard.
 10. **Approvals hold.** A teammate's post that needs approval stays held until the owner approves it; only the owner can call `approve_post` or `reject_post`.
+11. **Other people's accounts.** Some tools look at accounts that are not the user's: `get_mentions`, `search_public_posts` and `lookup_profile` read live; `save_monitor` and `run_monitor` store the posts a keyword search finds, read with `get_monitor_hits`; `watch_profile` records a profile's public counts (followers, likes, posts) over time, read with `list_watched_profiles`. They read only what the platform's official API returns to the connected account: public posts, public profile details (name, bio, follower and post counts) and posts that mention that account. On Mastodon, mentions and search can include followers-only and direct posts that the account can see. Nothing else private about another account is read: no follower lists, no other people's messages and no non-public profile data. The other account is not notified, as with any public page view. A monitor's stored posts are kept at most until `delete_monitor`, and a watched profile's history at most until `unwatch_profile` (some platforms remove it sooner). The user needs a lawful reason and must follow each platform's terms. If a request is about following a private person rather than a brand, a topic or mentions of the user's own accounts, ask what it is for first.
 
 ## Help
 
