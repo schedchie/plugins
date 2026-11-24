@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "schedchie",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Schedule, post and cross-post to TikTok, Instagram, LinkedIn, Facebook, YouTube, X, Threads, Pinterest, Bluesky and Google Business Profile, then reschedule, fix failed posts, read analytics and run approvals, through the hosted Schedchie MCP server.",
   "author": {
     "name": "Schedchie",

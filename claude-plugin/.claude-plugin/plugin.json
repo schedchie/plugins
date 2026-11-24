@@ -1,0 +1,45 @@
+{
+  "name": "schedchie",
+  "displayName": "Schedchie Social Media Scheduler",
+  "version": "1.2.1",
+  "description": "Schedule, post and cross-post to TikTok, Instagram, LinkedIn, Facebook, YouTube, X, Threads, Pinterest, Bluesky and Google Business Profile, then reschedule, fix failed posts, read analytics and run approvals, through the hosted Schedchie MCP server.",
+  "author": {
+    "name": "Schedchie",
+    "email": "support@schedchie.com",
+    "url": "https://www.schedchie.com"
+  },
+  "homepage": "https://www.schedchie.com/ai",
+  "repository": "https://github.com/schedchie/plugins",
+  "license": "MIT",
+  "keywords": [
+    "social-media",
+    "scheduling",
+    "social-media-scheduler",
+    "publishing",
+    "marketing",
+    "analytics",
+    "mcp",
+    "instagram",
+    "tiktok",
+    "linkedin",
+    "bluesky",
+    "youtube",
+    "facebook",
+    "x",
+    "threads",
+    "pinterest",
+    "google-business-profile",
+    "cross-posting"
+  ],
+  "icon": "./assets/icon-512.png",
+  "documentationUrl": "https://www.schedchie.com/ai",
+  "supportUrl": "https://www.schedchie.com/contact",
+  "privacyPolicyUrl": "https://www.schedchie.com/privacy",
+  "termsOfServiceUrl": "https://www.schedchie.com/terms",
+  "mcpServers": {
+    "schedchie": {
+      "type": "http",
+      "url": "https://mcp.schedchie.com/mcp"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "schedchie",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Schedule, post and cross-post to TikTok, Instagram, LinkedIn, Facebook, YouTube, X, Threads, Pinterest, Bluesky and Google Business Profile, then reschedule, fix failed posts, read analytics and run approvals, through the hosted Schedchie MCP server. Sign in with your Schedchie account on first connect.",
   "author": {
     "name": "Schedchie",

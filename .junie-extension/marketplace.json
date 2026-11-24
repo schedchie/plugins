@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Schedchie, the social media scheduler, for AI assistants: the hosted Schedchie MCP server.",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "homepage": "https://www.schedchie.com/ai"
   },
   "extensions": [
@@ -14,7 +14,7 @@
       "name": "schedchie",
       "source": "./extensions/schedchie",
       "description": "Schedule, post and cross-post to TikTok, Instagram, LinkedIn, Facebook, YouTube, X, Threads, Pinterest, Bluesky and Google Business Profile, then reschedule, fix failed posts, read analytics and run approvals, through the hosted Schedchie MCP server.",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Schedchie"
       },

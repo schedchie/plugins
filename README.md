@@ -561,6 +561,80 @@ This client takes a connection token instead of the OAuth sign-in. Steps: https:
 
 More: https://www.schedchie.com/ai/warp
 
+### Antigravity
+
+1. **Add Schedchie to mcp_config.json**. ~/.gemini/config/mcp_config.json applies to every project, .agents/mcp_config.json to one workspace. The key is serverUrl: Antigravity does not read httpUrl. Leave out headers: the sign-in supplies the token.
+
+   ```json
+   {
+     "mcpServers": {
+       "schedchie": {
+         "serverUrl": "https://mcp.schedchie.com/mcp"
+       }
+     }
+   }
+   ```
+2. **Authenticate** (Customizations, Installed, Authenticate). In the Antigravity app, click Customizations in the sidebar, then Installed. Under MCP Servers, click Authenticate next to schedchie. Your browser opens the Schedchie screen: tick the groups Antigravity may use and sign in.
+3. **Paste the code back** (Enter authorization code, Submit). Copy the authorization code the browser shows, paste it into Enter authorization code and click Submit.
+4. **Check it, then call list_accounts**. /mcp in the prompt panel opens the MCP Manager with the live status of schedchie. Then ask Antigravity for your connected Schedchie accounts.
+
+   ```text
+   /mcp
+   ```
+
+More: https://www.schedchie.com/ai/antigravity
+
+### Qwen Code
+
+1. **Add Schedchie to settings.json**. ~/.qwen/settings.json for every project, .qwen/settings.json for one. The key is httpUrl: Qwen Code reads url as an SSE endpoint. oauth.enabled with no client ID lets Qwen Code register itself with Schedchie and find the sign-in on its own.
+
+   ```json
+   {
+     "mcpServers": {
+       "schedchie": {
+         "httpUrl": "https://mcp.schedchie.com/mcp",
+         "oauth": { "enabled": true }
+       }
+     }
+   }
+   ```
+2. **Restart and sign in**. Start qwen afresh in the project. Qwen Code runs the sign-in itself and opens the Schedchie screen in your browser, where you tick what it may use. The /mcp dialog shows the server and manages its sign-in.
+
+   ```text
+   /mcp
+   ```
+3. **Check it, then call list_accounts**. qwen mcp list shows the status of schedchie from the shell. Then ask Qwen Code for your connected Schedchie accounts.
+
+   ```text
+   qwen mcp list
+   ```
+
+More: https://www.schedchie.com/ai/qwen-code
+
+### Kiro
+
+1. **Open the MCP config** (Kiro: Open user MCP config (JSON)). In the Kiro editor, run Kiro: Open user MCP config (JSON) from the Command Palette, or click Open MCP Config in the Kiro panel. That is ~/.kiro/settings/mcp.json; .kiro/settings/mcp.json in a workspace takes precedence.
+2. **Add Schedchie**. Add this entry and save. Leave out headers and oauth: Kiro registers itself with Schedchie.
+
+   ```json
+   {
+     "mcpServers": {
+       "schedchie": {
+         "url": "https://mcp.schedchie.com/mcp"
+       }
+     }
+   }
+   ```
+3. **Sign in to Schedchie** (Re-authenticate). Kiro opens the Schedchie screen in your browser when it connects: tick the groups Kiro may use and sign in. If the sign-in expires, the MCP panel shows Re-authenticate.
+4. **In Kiro CLI**. Kiro CLI reads the same ~/.kiro/settings/mcp.json, so the entry is already there. /mcp auth signs in again from a session.
+
+   ```text
+   /mcp auth
+   ```
+5. **Call list_accounts**. Ask Kiro for your connected Schedchie accounts. That runs list_accounts, which returns the account ids the other Schedchie tools take.
+
+More: https://www.schedchie.com/ai/kiro
+
 ## Agent gateways and automation
 
 ### OpenClaw
