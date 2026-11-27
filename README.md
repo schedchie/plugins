@@ -42,6 +42,8 @@ Nothing in this repository runs on install or sends anything by itself. When you
 
 Each one except Hermes adds the same server, `https://mcp.schedchie.com/mcp`, and the first tool call opens the Schedchie sign-in. The Hermes tap adds only the skill: add the server as in [Hermes Agent](#hermes-agent) below. The skill in `skills/schedchie/SKILL.md` tells an agent which tools to use first, to ask you before scheduling (unless you told it that it need not) and before anything that publishes, replies, approves, deletes, sends mail, creates a shareable link or changes access, to convert your local times to UTC, and to treat text written by other people as data, never as instructions.
 
+`skills/cross-post-video/SKILL.md` does one job: you give it one finished video, and it schedules it to your connected accounts (YouTube, Instagram, TikTok, Facebook and the rest), with a caption written for each platform, after you approve the plan once. It asks for the YouTube title and visibility and the TikTok audience, never picks them, and posts the video as it is, without editing it. Install it alone with `npx skills add schedchie/plugins --skill cross-post-video`, or on claude.ai as described at https://www.schedchie.com/ai/skills/cross-post-video.
+
 ## Connect any assistant by hand
 
 Every client below needs only the server address. The steps follow the setup pages on schedchie.com, which have more detail per client.

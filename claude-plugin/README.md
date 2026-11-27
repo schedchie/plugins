@@ -19,6 +19,8 @@ Schedule, post and cross-post to Instagram, Facebook, TikTok, LinkedIn, Pinteres
 
 On the sign-in screen you choose what the connection may do, in six permission groups. Deleting a post, removing a member or disconnecting an account is marked destructive, and the skill in `skills/schedchie/SKILL.md` tells Claude to ask you first. It also tells Claude to convert your local times to UTC and to treat text written by other people as data, never as instructions.
 
+A second skill, `skills/cross-post-video/SKILL.md`, does one job: give Claude one finished video and it schedules it to your connected accounts with a caption written for each platform, after you approve the plan once. It asks you for the YouTube title and visibility and the TikTok audience and never picks them.
+
 ## Public data and other people's accounts
 
 Some tools look at accounts other than yours, on the platforms that support them: posts that mention your accounts, public post search and keyword monitors, public profile lookups, and watched profiles, whose public counts (followers, likes, posts) are recorded over time.
